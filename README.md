@@ -63,6 +63,10 @@ platforms platforms as well.  However i know that the scripted install in
 The code will probably work just fine under Windows, but I'm not sure how to
 install it. (Let me know if you get it working!)
 
+## Docker
+1. docker build . -t differential-line
+1. docker run --rm -v ~/output:/code/res differential-line python ./main_line.py
+
 ## Why all the main files?
 
 If you just want to try this out you should have a look at `main_ani.py`. It is
